@@ -3,8 +3,12 @@ name: Node.js Package, Github CI/CD Pipeline
 on:
   push:
     branches: [main]
+    paths-ignore:
+      - ".github"
   pull_request:
     branches: [main]
+    paths-ignore:
+      - ".github"
 
 jobs:
   release:
