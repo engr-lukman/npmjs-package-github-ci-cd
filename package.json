@@ -1,5 +1,5 @@
 {
-  "name": "@engr-lukman/npmjs-package-github-ci-cd",
+  "name": "npmjs-package-github-ci-cd",
   "version": "1.0.0",
   "description": "This is a simple node.js package",
   "main": "index.js",
